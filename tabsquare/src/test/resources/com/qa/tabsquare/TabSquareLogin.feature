@@ -14,6 +14,6 @@ Feature: TabSquare Checkout
     And I click on the checkout button
     And I am on the "cart" page
     And I select "Pay By Cash" button
-    And I am on the "confirm" page
+    And I am on the order "confirm" page
     And I can See order success message "Your Order has been successfully sent to kitchen"
     And I can see generated oder Id

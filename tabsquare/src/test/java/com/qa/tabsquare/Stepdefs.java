@@ -18,7 +18,7 @@ public class Stepdefs extends BaseClass {
 	HomePage home = new HomePage();
 	CartPage cart = new CartPage();
 
-	@Given("^I am on the \"([^\"]*)\" page$")
+	@Given("^I am on the(?: order)? \"([^\"]*)\" page$")
 	public void loginpage(String page) throws Throwable {
 		// Write code here that turns the phrase above into concrete actions
 		login.AssertonPage(page);
